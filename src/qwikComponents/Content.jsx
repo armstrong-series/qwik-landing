@@ -13,16 +13,23 @@ export const Content = () => {
               customer and a business owner
               </p>
              
-                 <button className='px-7 py-2 my-4'>Get Started</button>       
-                 {/* <button className='px-7 py-2 sm:w-[40%] my-4 bg-transparent'>Watch Video</button>  */}
-         
-                     
+                 <div className='flex justify-between'>
+                  <button className='bg-transparent text-gray-700 px-7 py-2 my-4'>Watch Video</button>  
+                  <button className='px-7 py-2 my-4'>Get Started</button>       
+                </div>         
           </div>
           <div>
-            <img className='w-full lg:p-12' src={qwikFlows} alt="qwikflows" />
+            <img className='lg:p-12' src={qwikFlows} alt="qwikflows" />
           </div>
-
+          <div className='w-full bg-blue-100'>
+            <div className='w-full bg-blue border-rounded-full'>
+                <div className='flex flex-col justify-center md:items-start w-full'>
+                  <img src="" alt="" />
+                </div>
+            </div>
+           </div>
         </div>
+       
     </div>
   )
 }
